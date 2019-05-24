@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/index.css">
+	<title>Tony Chan | GitHub Page</title>
+	<!-- icon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<base target="_blank">
+</head>
+<!-- <img src="imgs/ilya-pavlov-87438.jpg"> -->
+<body>
+	<!-- header -->
+	<div id="container">
+		<div id="info-container">
+			<div id="myself">
+				<img id="my-picture" src="imgs/chankwongyin.jpg" alt="The personal image of Tony Chan">
+				<ul>
+					<li><a href="https://www.facebook.com/chankwongyin" ><img src="imgs/facebook-icon.png" alt="facebook icon" style="width: 36px;height: 36px;padding-top: 4px;padding-left: 20px;"></a></li>
+					<li><a href="mailto:chankwongyintony@gmail.com"><img src="imgs/gmail-icon.png" alt="gmail-icon" style="width: 45px;height: 45px;"></a></li>
+					<li><a href="https://github.com/chankwongyin"><i class="fa fa-github" style="font-size:45px"></i></a></li>
+				</ul>
+			</div>
+			<div id="code-container">
+				<code>
+					<span class="lines">1</span><span class="red">#include</span> <span class="yellow">&lt;iostream&gt;</span><br>
+					<span class="lines">2</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="red">#include</span> <span class="yellow">&lt;string&gt;</span><br>
+					<span class="lines">3</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="red">using namespace</span> std;<br>
+
+					<span class="lines">4</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">class</span> <span class="green">Tony</span>{<br>
+					<span class="lines">5</span><span class="red">private</span>:<br>
+					<span class="lines">6</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">string</span> name; <span class="blue">char</span> gender;<br>
+					<span class="lines">7</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">int</span> age;<br>
+					<span class="lines">8</span><span class="red">public</span>:<br>
+					<span class="lines">9</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="green">Tony</span>(<span class="blue">string</span> name,<span class="blue">char</span> gender,<span class="blue">int</span> age)<br>
+					<span class="lines">10</span>&nbsp;&nbsp;&nbsp;&nbsp;:name(name),gender(gender),age(age){}<br>
+					<span class="lines">11</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">string</span> <span class="green">getName</span>(){<span class="red">return</span> name;}<br>
+					<span class="lines">12</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">char</span> <span class="green">getGender</span>(){<span class="red">return</span> gender;}<br>
+					<span class="lines">13</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">int</span> <span class="green">getAge</span>(){<span class="red">return</span> age;}<br>
+					<span class="lines">14</span>};<br>
+
+					<span class="lines">15</span>int <span class="green">main</span>(){<br>
+					<span class="lines">16</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">string</span> myInterest[2] = {<span class="yellow">"coding","basketball"</span>};<br>
+					<span class="lines">17</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">Tony*</span> tony = <span class="red">new</span> <span class="green">Tony</span>(<span class="yellow">"Tony Chan"</span>,<span class="yellow">'M'</span>,<span class="purple">22</span>);<br>
+					<span class="lines">18</span>&nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt; <span class="yellow">"Hello everyone! I am "</span> &lt;&lt; tony->getName() &lt;&lt;<span class="yellow">"."</span>&lt;&lt; endl;<br>
+					<span class="lines">19</span>&nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt; <span class="yellow">"Wellcome to my GitHub Page!"</span> &lt;&lt; endl;<br>
+					<span class="lines">20</span>&nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt; <span class="yellow">"I will list my apps and games here."</span> &lt;&lt; endl;<br>
+					<span class="lines">21</span>&nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt; <span class="yellow">"feel free to PLAY!"</span> &lt;&lt; endl;<br>
+					<span class="lines">22</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="grey">//	delete tony;</span><br>
+					<span class="lines">23</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="red">return</span> <span class="purple">0</span>;<br>
+					<span class="lines">24</span>}
+				</code>
+			</div>
+		</div>
+	</div>
+	<!-- End of header -->
+
+	<!-- main board -->
+	<div id="main">
+		<h5>Here is My </h5>
+		<h1>Projects & Games</h1>
+		<div id="list-group">
+			<ul>
+				<li>Project 1 <span><a href="BBTanClone-javascript/index.html">BBTan Clone</a></span></li>
+				<li>Project 2 <span><a href="ColorGame/colorGame.html">Color Game</a></span></li>
+				<li>Project 3 <span><a href="GitHub-User-Search/index.html">GitHub User Seacher</a></span></li>
+				<li>Project 4 <span><a href="Patatap-Clone/circles.html">Patatap Clone</a></span></li>
+				<li>Project 5 <span><a href="ToDoList/index.html">To Do List</a></span></li>
+			</ul>
+		</div>
+	</div>
+	<!-- End of main board -->
+	<!-- Useful links -->
+	<div id="useful-links">
+		<h1>Useful Links</h1>
+		<h2>For Web Development:</h2>
+		<ul>
+			<li><a href="https://www.w3schools.com/default.asp">W3Schools Online Web Tutorials</a></li>
+			<li><a href="https://developer.mozilla.org/en-US/docs/Learn">MDN Learn web development</a></li>
+			<li><a href="https://html-color-codes.info/colors-from-image/">Find the colors from image</a></li>
+			<li><a href="https://validator.w3.org/">HTML Validator</a></li>
+			<li><a href="https://developer.mozilla.org/en-US/docs/Web/Guide">MDN Web Developer guides</a></li>
+		</ul>
+
+		<h2>For C++ programming:</h2>
+		<ul>
+			<li><a href="http://www.learncpp.com/">LearnCpp.com Tutorials</a></li>
+			<li><a href="http://www.cplusplus.com/doc/tutorial/">cpluscplus.com Tutorials</a></li>
+		</ul>
+
+		<h2>Others:</h2>
+		<ul>
+			<li><a href="https://medium.com/@fay_jai/what-is-vim-and-why-use-vim-54c67ce3c18e">What is Vim and Why use Vim? – Willson Mock – Medium</a></li>
+			<li><a href="https://www.sublimetext.com/">Sublime Editor</a></li>
+			<li><a href="https://www.wix.com/">Wix.com: Free Website Builder | Create a Free Website</a></li>
+		</ul>
+	</div>
+	<!-- End of useful links -->
+
+	<!-- footer -->
+	<footer>
+		<div>COPYRIGHT&copy; CHANKWONGYIN.&nbsp;&nbsp;ALL RIGHTS RESERVED.&nbsp;&nbsp;</div>
+	</footer>
+	<!-- End of footer -->
+</body>
+</html>

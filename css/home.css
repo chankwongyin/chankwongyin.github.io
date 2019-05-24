@@ -1,0 +1,83 @@
+.container-fluid {
+  border-color: black;
+  border-style: solid;
+}
+
+.col-sm-6,
+.col-lg-6 {
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  /* height: 100vh; */
+}
+
+#left {
+  background-color: #0e5159;
+}
+#personal-image {
+  background-size: cover;
+}
+
+nav {
+  margin: 30px 40px;
+}
+
+nav > h1 {
+  color: #f7dc4f;
+  font-size: 23px;
+  margin-bottom: 18px;
+}
+
+nav a {
+  margin-right: 25px;
+  font-size: 15px;
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  transition: #f7dc4f 0.4s ease 0s;
+}
+
+#main {
+  margin: 20%;
+}
+
+#main > h3 {
+  color: #f7dc4f;
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  line-height: 0.5em;
+  padding-bottom: 20px;
+}
+
+#main > h1 {
+  font-size: 144px;
+  color: white;
+  font-family: "Roboto-bold", sans-serif;
+  line-height: 1em;
+}
+
+#main > h6 {
+  color: white;
+  line-height: 1.8em;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+@media only screen and (max-width: 573px) {
+  #main > h1 {
+    font-size: 100px;
+  }
+
+  nav a {
+    margin-right: 15px;
+  }
+
+  nav {
+    margin-bottom: 20px;
+  }
+  #main > h6 {
+    text-align: center;
+  }
+}

@@ -1,0 +1,106 @@
+#background {
+}
+
+#pure-color-background {
+  background-color: #0e5159;
+  height: 100vh;
+  margin: 0;
+}
+
+#self-pic-background {
+  background-color: brown;
+  height: 100vh;
+  margin: 0;
+  background-size: 100%;
+  background-image: url("/Users/tonychan/personalPage/images/propic2.jpg");
+}
+
+#name {
+  color: #f7dc4f;
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  line-height: 1.4em;
+  margin-top: 30px;
+  margin-bottom: 3px;
+  margin-left: 36px;
+}
+
+nav {
+  margin-left: 20px;
+  background-color: #0e5159;
+}
+
+.nav-item {
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+.nav-link {
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  transition: #f7dc4f 0.4s ease 0s;
+}
+.nav-link:hover {
+  color: #f7dc4f;
+}
+
+#name-content {
+  margin-left: 131px;
+  /* margin-top: 150px; */
+  margin-top: 140px;
+}
+
+#hey {
+  color: #f7dc4f;
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  line-height: 0.5em;
+}
+
+.name-center {
+  font-size: 144px;
+  color: white;
+  font-family: "Roboto-bold", sans-serif;
+  line-height: 1em;
+}
+
+.interests {
+  color: white;
+  line-height: 1.8em;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+#social-container {
+  background-color: #f7dc4f;
+  width: 46px;
+  height: 161px;
+  position: absolute;
+  top: 40%;
+  right: 0px;
+}
+#social {
+  width: 18px;
+  height: 114px;
+  vertical-align: baseline;
+  padding-left: 40%;
+  padding-top: 40%;
+}
+
+.fa-facebook {
+  color: black;
+  margin-bottom: 14px;
+}
+.fa-google {
+  color: black;
+  margin-bottom: 14px;
+}
+.fa-instagram {
+  color: black;
+  margin-bottom: 14px;
+}
+.fa-github {
+  color: black;
+  margin-bottom: 14px;
+}
